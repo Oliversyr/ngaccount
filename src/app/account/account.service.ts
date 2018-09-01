@@ -2,7 +2,7 @@ import { NgModule, Component, ElementRef, Injectable, NO_ERRORS_SCHEMA, ViewChil
 import { OnChanges, SimpleChanges, OnInit, DoCheck, AfterContentChecked, AfterContentInit, AfterViewInit, AfterViewChecked, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { MyHttpService } from '../../common/http/http.service'; 
+import { MyHttpService } from '../common/http/http.service'; 
 
 @Injectable()
 

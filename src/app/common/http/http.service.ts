@@ -48,8 +48,4 @@ export class MyHttpService {
             })
         }) 
     }
-
-
-
-
 }
