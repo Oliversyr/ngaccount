@@ -1,0 +1,42 @@
+.main {
+    height: 100%;
+}
+.aside-container {
+    .aside-logo {
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+    }
+
+    .aside-list-container {
+        .aside-list {
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+            color: #606266;
+            cursor: pointer;
+
+            &:hover {
+                color: #2f74ff;
+                background-color: #f5f8fb;
+
+                .aside-list-txt {
+                    background-color: #f5f8fb;
+                }
+            }
+
+            &.active {
+                color: #2f74ff;
+                background-color: #f5f8fb;
+
+                .aside-list-txt {
+                    background-color: #f5f8fb;
+                }
+            }
+        }
+    }
+}
+
+.main-container {
+    background-color: #fff;
+}

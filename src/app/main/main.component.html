@@ -1,0 +1,17 @@
+<div el-container class="main">
+  <div el-aside width="200px" class="aside-container">
+    <div class="aside-logo">我的账户</div>
+    <ul class="aside-list-container">
+      <li *ngFor="let list of asideList" class="aside-list" (click)="asideClick(list)" [ngClass]="{'active': list.active}">
+        <span class="aside-list-txt" >{{list.name}}</span>
+      </li>
+    </ul>
+  </div>
+
+  <div el-container direction="vertical">
+    <div el-header>Header</div>
+    <div el-main class="main-container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
